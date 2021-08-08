@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "160502539610",
+    "project_id": "gotradefinal",
+    "storage_bucket": "gotradefinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160502539610:android:44ea3d3058b567de69bf63",
+        "android_client_info": {
+          "package_name": "com.kushagrawithmdg.gotrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160502539610-gl8i8cn5or5mj67tfmqigrobetr3ts5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByCLb9ZtSn6gURvj_5F3LP5ojQMB5pnfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160502539610-gl8i8cn5or5mj67tfmqigrobetr3ts5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
