@@ -61,6 +61,7 @@ class InformationActivity : AppCompatActivity() {
 
     private fun saveUserInformation() {
 
+
         val displayname: String = editText.getText().toString()
 
         if (displayname.isEmpty()) {
@@ -83,8 +84,7 @@ class InformationActivity : AppCompatActivity() {
             }
         }else{
             Toast.makeText(this,"Photo Must be Uploaded First",Toast.LENGTH_SHORT).show()
-            return
-        }
+            return}
     }
 
     private fun UpdateUI() {

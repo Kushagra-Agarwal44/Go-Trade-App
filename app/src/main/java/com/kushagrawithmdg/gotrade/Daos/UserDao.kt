@@ -23,15 +23,15 @@ private final val TAG = "1"
         user?.let {
 
             GlobalScope.launch(Dispatchers.IO) {
-                var docRef = usersCollection.document(user.uid)
+//                var docRef = usersCollection.document(user.uid)
 
 
-                    if (docRef.get().isSuccessful) {
+//                    if (docRef.get().isSuccessful) {
                         usersCollection.document(user.uid).set(it)
 
-                    } else {
-                        null
-                    }
+//                    } else {
+//                        null
+//                    }
 
 
                 //                val checkuser = getUserById(it.uid).await().toObject(User::class.java)
